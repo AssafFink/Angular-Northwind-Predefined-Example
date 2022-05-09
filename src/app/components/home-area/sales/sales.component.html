@@ -1,0 +1,13 @@
+<div class="box">
+
+    <span *ngIf="isWeekend()">Weekend Sale: {{weekendSaleItem}} | </span>
+
+    <ng-container [ngSwitch]="totalItemsOnSale">
+        <span *ngSwitchCase="0">No items on sale</span>
+        <span *ngSwitchCase="1">One item on sale</span>
+        <span *ngSwitchDefault>{{totalItemsOnSale}} items on sale</span>
+    </ng-container>
+
+    <span *season="'summer'"> | Summer Sale: Half Price on Beverages!</span>
+
+</div>
