@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-// ng g c components/layout-area/footer
+// ng g c components/layout-area/footer --skip-tests
 
 @Component({
     selector: 'app-footer',

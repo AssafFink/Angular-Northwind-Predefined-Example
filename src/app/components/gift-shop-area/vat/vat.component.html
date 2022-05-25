@@ -1,0 +1,12 @@
+<div class="box">
+    
+    <h4>VAT Calculator</h4>
+    
+    <label>Price: </label>
+    <input type="number" [(ngModel)]="price" (input)="calc()">
+
+    <p>{{ price | currency }} x {{ percent }}% = {{ vat | currency }}</p>
+
+    <button (click)="clear()">Clear</button>
+
+</div>

@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 
-// ng g c components/contact-us-area/contact-us
+// ng g c components/contact-us-area/contact-us --skip-tests
 
 @Component({
-    selector: 'app-contact-us',
     templateUrl: './contact-us.component.html',
     styleUrls: ['./contact-us.component.css']
 })

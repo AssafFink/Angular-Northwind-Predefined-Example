@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-// ng g c components/layout-area/page-not-found
+// ng g c components/layout-area/page-not-found --skip-tests
 
 @Component({
     selector: 'app-page-not-found',

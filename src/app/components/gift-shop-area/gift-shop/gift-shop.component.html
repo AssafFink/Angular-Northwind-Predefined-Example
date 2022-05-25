@@ -1,0 +1,27 @@
+<div>
+
+    <br>
+    
+    <button (click)="showMap()">Show Map</button>
+
+    <button (click)="createCoupon()">Create Coupon</button>
+
+    <br>
+
+    <ng-template #mapPlaceholder></ng-template>
+
+    <br>
+
+    <ng-template #couponPlaceholder></ng-template>
+
+    <br>
+
+    <app-currency [supportedCurrency]="bitcoin"></app-currency>
+
+    <app-shoppers></app-shoppers>
+
+    <br>
+
+    <app-vat></app-vat>
+
+</div>

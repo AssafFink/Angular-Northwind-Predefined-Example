@@ -1,6 +1,6 @@
 import { Directive, ElementRef, HostListener, OnInit, Renderer2 } from '@angular/core';
 
-// ng g d directives/zoom-in --flat=false
+// ng g d directives/zoom-in --flat=false --skip-tests
 
 // ElementRef: Wrapper around the host element.
 // Renderer2: DOM access utility.

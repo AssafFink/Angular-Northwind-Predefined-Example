@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-// ng g s services/colors --flat=false
+// ng g s services/colors --flat=false --skip-tests
 
 // Service - a logic class.
 // DI Instances:

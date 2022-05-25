@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-// ng g c components/home-area/sales
+// ng g c components/home-area/sales --skip-tests
 
 // Structural Directive:
 // Adds or Removes elements from the DOM.

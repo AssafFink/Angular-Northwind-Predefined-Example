@@ -9,7 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
         ContactUsComponent
     ],
     imports: [
-        CommonModule,
+        CommonModule
     ]
 })
 export class ContactUsModule { }

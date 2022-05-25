@@ -1,7 +1,7 @@
-import { ColorsService } from './../../../services/colors/colors.service';
+import { ColorsService } from '../../../services/colors/colors.service';
 import { Component, OnInit } from '@angular/core';
 
-// ng g c components/home-area/address
+// ng g c components/home-area/address --skip-tests --skip-tests
 
 // DI
 
@@ -11,12 +11,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddressComponent implements OnInit {
 
-    public bg: string;
+    public backColor: string;
 
     public constructor(private colorsService: ColorsService) { }
 
     public ngOnInit(): void {
-        this.bg = this.colorsService.getRandomColor();
+        this.backColor = this.colorsService.getRandomColor();
     }
 
 }

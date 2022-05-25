@@ -4,28 +4,34 @@
     <app-search></app-search>
 
     <!-- Lifecycle Hooks: -->
-    <app-clock></app-clock>
+    <!-- <app-clock></app-clock> -->
 
     <!-- @Input: -->
     <app-slogan slogan="Exotic Products!"></app-slogan>
     <app-slogan slogan="Healthy & Cheap!"></app-slogan>
 
+    <!-- ng-content -->
+    <app-tip>
+        Eat a <strong>healthy</strong> breakfast
+    </app-tip>
+    <app-tip>
+        <span class="subject">Weight Reduction:</span>
+        Avoid eating after <strong>9:00 PM</strong>
+    </app-tip>
+
     <!-- @Output: -->
     <app-survey (report)="display($event)"></app-survey>
 
-    <!-- Services & DI: -->
-    <app-address></app-address>
+    <!-- Template Reference Variable: -->
+    <app-location></app-location>
 
     <!-- Pipes: -->
     <app-gift-card></app-gift-card>
 
     <!-- Attribute Directives: -->
-    <app-coupon></app-coupon>
+    <app-discount></app-discount>
 
     <!-- Structural Directives: -->
     <app-sales></app-sales>
-
-    <!-- Template Reference Variable: -->
-    <app-location></app-location>
 
 </div>

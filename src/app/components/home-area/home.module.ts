@@ -6,13 +6,13 @@ import { SearchComponent } from './search/search.component';
 import { GiftCardComponent } from './gift-card/gift-card.component';
 import { PipesModule } from 'src/app/pipes/pipes.module';
 import { SalesComponent } from './sales/sales.component';
-import { CouponComponent } from './coupon/coupon.component';
+import { DiscountComponent } from './discount/discount.component';
 import { DirectivesModule } from 'src/app/directives/directives.module';
 import { ClockComponent } from './clock/clock.component';
 import { SloganComponent } from './slogan/slogan.component';
 import { SurveyComponent } from './survey/survey.component';
-import { AddressComponent } from './address/address.component';
 import { LocationComponent } from './location/location.component';
+import { TipComponent } from './tip/tip.component';
 
 // ng g m components/home-area/home --flat
 
@@ -20,14 +20,14 @@ import { LocationComponent } from './location/location.component';
     declarations: [
         HomeComponent,
         SearchComponent,
-        GiftCardComponent,
-        SalesComponent,
-        CouponComponent,
         ClockComponent,
         SloganComponent,
+        TipComponent,
         SurveyComponent,
-        AddressComponent,
-        LocationComponent,
+        GiftCardComponent,
+        SalesComponent,
+        DiscountComponent,
+        LocationComponent
     ],
     imports: [
         CommonModule,

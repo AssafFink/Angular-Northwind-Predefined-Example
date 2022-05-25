@@ -1,6 +1,6 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
-// ng g c components/home-area/location
+// ng g c components/home-area/location --skip-tests
 
 // Template Reference Variable
 // Angular unique id for an element.
@@ -10,7 +10,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
     templateUrl: './location.component.html'
 })
 export class LocationComponent {
-
+    
     @ViewChild("location")
     public selectRef: ElementRef<HTMLSelectElement>;
     
@@ -18,4 +18,5 @@ export class LocationComponent {
         const selectElement = this.selectRef?.nativeElement;
         alert(`Location: ${location.value} | ${selectElement.value}`);
     }
+
 }

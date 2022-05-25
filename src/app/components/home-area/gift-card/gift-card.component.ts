@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-// ng g c components/home-area/gift-card
+// ng g c components/home-area/gift-card --skip-tests
 
 // Pipe:
 // Perform some change on an interpolation value.

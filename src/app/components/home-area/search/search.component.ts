@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-// ng g c components/home-area/search
+// ng g c components/home-area/search --skip-tests
 
 // Data Binding:
 // Property Binding: Set class field to an HTML attribute.

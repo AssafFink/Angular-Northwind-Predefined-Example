@@ -1,6 +1,6 @@
 import { Directive, HostBinding, HostListener, Input, OnInit } from '@angular/core';
 
-// ng g d directives/highlight --flat=false
+// ng g d directives/highlight --flat=false --skip-tests
 
 // Custom Attribute Directive:
 // <p highlight>...</p>

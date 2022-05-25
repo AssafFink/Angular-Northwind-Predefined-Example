@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
-// ng g c components/home-area/survey
+// ng g c components/home-area/survey --skip-tests
 
 // @Output:
 // Event raised to parent component.

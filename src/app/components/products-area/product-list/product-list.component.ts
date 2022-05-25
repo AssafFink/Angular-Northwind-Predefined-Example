@@ -2,10 +2,9 @@ import { ProductModel } from './../../../models/product.model';
 import { ProductsService } from './../../../services/products/products.service';
 import { Component, OnInit } from '@angular/core';
 
-// ng g c components/products-area/product-list
+// ng g c components/products-area/product-list --skip-tests
 
 @Component({
-    selector: 'app-product-list',
     templateUrl: './product-list.component.html',
     styleUrls: ['./product-list.component.css']
 })

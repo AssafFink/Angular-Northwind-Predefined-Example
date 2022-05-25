@@ -2,7 +2,7 @@ import { ProductModel } from './../../../models/product.model';
 import { environment } from './../../../../environments/environment';
 import { Component, Input, OnInit } from '@angular/core';
 
-// ng g c components/products-area/product-card
+// ng g c components/products-area/product-card --skip-tests
 
 @Component({
     selector: 'app-product-card',

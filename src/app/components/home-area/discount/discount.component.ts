@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { ColorsService } from 'src/app/services/colors/colors.service';
 
-// ng g c components/home-area/coupon
+// ng g c components/home-area/discount --skip-tests
 
 // Attribute Directive:
 // Perform some change on an element - appearance/structure/behavior
 
 @Component({
-    selector: 'app-coupon',
-    templateUrl: './coupon.component.html',
-    styleUrls: ['./coupon.component.css']
+    selector: 'app-discount',
+    templateUrl: './discount.component.html',
+    styleUrls: ['./discount.component.css']
 })
-export class CouponComponent {
+export class DiscountComponent {
 
     public constructor(private colorsService: ColorsService) { }
 

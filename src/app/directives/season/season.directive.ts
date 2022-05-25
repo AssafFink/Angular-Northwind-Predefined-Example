@@ -1,6 +1,6 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
-// ng g d directives/season --flat=false
+// ng g d directives/season --flat=false --skip-tests
 
 // TemplateRef: <ng-template> wrapping the host.
 // ViewContainerRef: the element wrapping <ng-template>
@@ -15,15 +15,12 @@ export class SeasonDirective {
     @Input("season")
     public season: string;
 
-    constructor(private templateRef: TemplateRef<any>, private viewContainerRef: ViewContainerRef) { }
+    public constructor(private templateRef: TemplateRef<any>, private viewContainerRef: ViewContainerRef) { }
 
-    ngOnInit(): void {
+    public ngOnInit(): void {
         if (this.season === this.getCurrentSeason()) {
             this.viewContainerRef.createEmbeddedView(this.templateRef); // Create the template element inside the container.
         }
-        // else {
-        //     this.viewContainerRef.clear(); // Clear the container, and thus the element won't be created.
-        // }
     }
 
     private getCurrentSeason(): string {
